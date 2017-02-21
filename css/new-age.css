@@ -311,12 +311,28 @@ section.cta .cta-content {
   position: relative;
   z-index: 1;
 }
+
+section.cta .section-heading h2 {
+  margin-top: 0;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+section.cta h2 {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
 section.cta .cta-content h2 {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
   max-width: 450px;
   font-size: 50px;
+  text-align: center;
 }
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
@@ -425,8 +441,16 @@ footer ul li a.active {
   letter-spacing: 2px;
   border-radius: 300px;
 }
+.btn-form {
+  padding: 15px 45px;
+  font-size: 11px;
+}
 .btn-xl {
   padding: 15px 45px;
+  font-size: 11px;
+}
+.btn-thin {
+  padding: 3px 30px;
   font-size: 11px;
 }
 ::-moz-selection {
