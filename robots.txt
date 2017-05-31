@@ -1,3 +1,5 @@
 User-agent: *
 Disallow: /thank-you.html
 Disallow: /youre-in.html
+Disallow: /artist-thank-you.html
+Disallow: /artist-youre-in.html
