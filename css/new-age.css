@@ -22,6 +22,21 @@ body {
   height: 100%;
   width: 100%;
 }
+input[type="email"]::-webkit-input-placeholder {
+color: white;
+}
+
+input[type="email"]:-moz-placeholder { /* Firefox 18- */
+color: white;
+}
+
+input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
+color: white;
+}
+
+input[type="email"]:-ms-input-placeholder {
+color: white;
+}
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
@@ -464,21 +479,6 @@ footer ul li a.active {
   color: white;
   text-shadow: none;
   background: #222222;
-}
-input[type="email"]::-webkit-input-placeholder {
-color: white;
-}
-
-input[type="email"]:-moz-placeholder { /* Firefox 18- */
-color: white;
-}
-
-input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
-color: white;
-}
-
-input[type="email"]:-ms-input-placeholder {
-color: white;
 }
 img::selection {
   color: white;
